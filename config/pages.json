@@ -1,0 +1,30 @@
+{
+	"pages": [
+		{
+			"id": "top",
+			"ejs_layout": "layouts/top/index.ejs",
+			"ejs_dir": "top/",
+			"ejs_file": "index",
+			"dist_dir": "",
+			"dist_file": "index",
+			"title": "テンプレート",
+			"description": "TOPの説明",
+			"keyword": "キーワード,キーワード",
+			"ogimage": "assets/img/ogimage.jpg",
+			"url": ""
+		},
+		{
+			"id": "about",
+			"ejs_layout": "layouts/under/layout.ejs",
+			"ejs_dir": "about/",
+			"ejs_file": "index",
+			"dist_dir": "/about",
+			"dist_file": "index",
+			"title": "テンプレート｜about",
+			"description": "aboutの説明",
+			"keyword": "キーワード,キーワード",
+			"ogimage": "assets/img/ogimage.jpg",
+			"url": "about/"
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"dir": {
+		"jsonDir": "config/",
+		"srcDir": "src/",
+		"destDir": "dist/",
+		"devDir": "develop/",
+
+		"jsDir": "src/js/",
+		"scssDir": "src/scss/",
+		"imgDir": "src/image/",
+		"tmplDir": "src/templates/",
+
+		"destCssDir": "assets/css",
+		"destImgDir": "assets/img",
+		"destJsDir": "assets/js"
+	},
+	"serverSet": {
+		"server": {
+			"baseDir": "develop/"
+		},
+		"open": "external",
+		"startPath": "../"
+	},
+	"prefixer": {
+		"browsers": ["last 2 versions", "ie > 8", "Android > 4"],
+		"cascade": false
+	}
+}
